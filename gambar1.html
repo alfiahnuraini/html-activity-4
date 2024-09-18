@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web </title>
+</head>
+<style>
+body {
+  font-family: inter, sans-serif;
+}
+
+.task-overview-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  padding: 25px;
+  margin: 25px auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.header h1 {
+  font-size: 17px;
+  margin: 0;
+  padding-bottom: 4px;
+  
+}
+
+.header span {
+  font-size: 12px;
+  color: gray;
+  
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.icon img {
+  width: 40px;
+  height: 40px;
+  border-radius: 7px;
+}
+
+.task-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-info strong {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.task-info span {
+  font-size: 12px;
+  color: gray;
+}
+.ii{
+  display: flex;
+  flex-direction: row;
+}
+.iconnw {
+  width: 15px;
+  height: 15px;
+  border-radius: 4px;
+  display: flex;
+  margin-left: 240px;
+  flex-direction: row;
+}
+</style>
+<body>
+  <div class="task-overview-card">
+  <div class="ii">
+  <div class="header">
+    <h1>Tasks Overview</h1>
+    <span>Pending 10 tasks</span>
+  </div>
+  <div class="iconnw">
+    <img src="logo.jpg">
+  </div>
+  </div>
+
+  <div class="task-list">
+
+  <div class="task-item">
+  <div class="icon" style="background-color: #dff9fb;">
+    <img src="g1n.jpg" alt="Project Briefing" >
+  </div>
+  <div class="task-info">
+    <strong>Project Briefing</strong>
+    <span>Project Manager</span>
+  </div>
+
+</div>
+  <div class="task-item">
+  <div class="icon" style="background-color: #f9f1d9;">
+    <img src="g2.jpg" alt="Concept Design">
+  </div>
+  <div class="task-info">
+    <strong>Concept Design</strong>
+    <span>Art Director</span>
+  </div>
+</div>
+
+  <div class="task-item">
+  <div class="icon" style="background-color: #e0f0ff;">
+    <img src="tiga.jpg" alt="Functional Logics">
+  </div>
+  <div class="task-info">
+    <strong>Functional Logics</strong>
+    <span>Lead Developer</span>
+  </div>
+</div>
+
+  <div class="task-item">
+  <div class="icon" style="background-color: #ffe6e6;">
+    <img src="g4.jpg" alt="Development">
+  </div>
+  <div class="task-info">
+    <strong>Development</strong>
+    <span>DevOps</span>
+  </div>
+</div>
+
+  <div class="task-item">
+  <div class="icon" style="background-color: #f5e0ff;">
+    <img src="g55.png" alt="Testing">
+  </div>
+  <div class="task-info">
+    <strong>Testing</strong>
+    <span>QA Managers</span>
+  </div>
+</div>
+
+</div>
+  </div>
+</body>
+</html>

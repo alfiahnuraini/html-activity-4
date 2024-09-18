@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        font-family: calibri, sans-serif;
+    }
+    .container{
+        width: 770px;
+        height: 395px;
+        background-color: white;
+        box-shadow: 0 5px 10px gray;
+        margin: 8px auto;
+        padding:8px;
+        display: flex;
+        flex-direction: row;
+        
+        
+    }
+    .kiri img{
+        width: 360px;  
+        height: 360px;
+        margin: 120px auto;
+        margin-left: 17px;
+        margin-top: 17px;
+        margin-bottom: 17px ;
+        border-radius: 10px;
+
+    }
+    .kanan{
+        padding: 5px;
+        margin: 5px;
+        margin-left: 15px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .parnet{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .tulisan{
+        display: flex;
+        flex-direction: column;
+        padding-top: 15px;
+    }
+    .tulisan h2{
+        font-size: 30px;
+        margin: 0;
+    }
+    .btn {
+        background-color: rgb(223, 239, 252);
+        border: none;
+        color: #007bff;
+        border-radius: 3px;
+        padding: 5px 10px;
+        font-size: 12px;
+        margin-right: 10px;
+        margin-top: 25px;        
+    }
+    .profil{
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        
+    }
+    .avatar {
+      vertical-align: middle;
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+    }
+    .text2{
+        margin-top: 10px;
+    }
+    .text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 50px;
+    }
+    .inpo{
+        display: flex;
+        flex-direction: row;
+    }
+    .tanggal{
+        width: 100px;
+        padding: 10px 25px;
+        margin: 20px;
+        border: 1px dashed gray;
+        border-radius: 6px;
+        margin-left: 3px;
+    }
+    .pf{
+        display: flex;
+        margin-top: 10px;
+    }
+    .pf img{
+        width: 35px;
+        height: 35px;
+        border-radius: 50px;
+        margin-right: -13px;
+    }
+    .viewproject{
+        text-decoration: none;
+        color: #007bff;
+        font-size: 16px;
+        margin-left: 200px;
+        margin-top: 5px;
+    }
+</style>
+<body>
+    <div class="container">
+    <div class="kiri">
+        <img src="t2.jpg">
+    </div>
+    <div class="kanan">
+    <div class="parnet">
+        <div class="tulisan">
+        <a><font color="gray">Featured</font></a>
+        <h2>9 Degree</h2>
+        </div>
+        <div>
+        <div class="parnet">
+        <button class="btn">In Process</button>
+        </div> 
+        </div>
+    </div>
+    <div class="profil">
+        <img src="avatar.jpg.png" alt="Avatar" class="avatar" alt="deskripsi avatar">
+    <div class="text">
+    <div>
+            <a><font color="gray">Manager</font></a>
+    </div>
+    <div>
+            <span>Robert Fox</span>
+    </div>
+    </div>
+            <img src="avatar.jpg.png" alt="Avatar" class="avatar" alt="deskripsi avatar">
+    <div class="text">
+    <div>
+            <a><font color="gray">Butget</font></a>
+    </div>
+    <div>
+            <span>$64.800</span>
+    </div>
+    </div>
+    </div>
+    <div class="text2">
+    <p><font color="gray">Flat cartoony illustrations with vivid unblended
+        <br>color and asymmestical beautiful purple hair lady</font></p>
+    </div>
+    <div class="inpo">
+        <div class="tanggal">
+            <a><b>Feb 6, 2021</b></a>
+            <span><font color="gray">Due Date</font></span>
+        </div>
+        <div class="tanggal">
+            <a><b>$284,900</b></a>
+            <span><font color="gray">Budget</font></span>
+        </div>
+    </div>
+    <div class="pf">
+        <img src="avatar.jpg.png">
+        <img src="avatar.jpg.png" >
+        <img src="avatar.jpg.png" >
+        <a href ="#" class="viewproject">View Project</a>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
